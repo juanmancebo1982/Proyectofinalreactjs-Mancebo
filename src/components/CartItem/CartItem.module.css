@@ -1,0 +1,32 @@
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    border: 1px solid #3fdba7;
+    margin-bottom: 1rem;
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+}
+
+.cartItem img {
+    height: 80px;
+}
+
+.cartItem h3 {
+    min-width: 300px;
+    text-align: start;
+}
+
+.cartItem button {
+    background-color: #e93737;
+    border: 1px solid #000000;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    color: #ffffff;
+    transition: all .3s ease-in-out;
+}
+
+.cartItem button:hover {
+    background-color: #972323;
+}

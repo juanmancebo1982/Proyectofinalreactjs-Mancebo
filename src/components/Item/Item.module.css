@@ -1,0 +1,38 @@
+.item {
+    border: 1px solid #3fdba7;
+    text-align: center;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.stockPrice {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.img {
+    height: 220px;
+    border-radius: 1rem;
+    box-shadow: 12px 12px 18px 1px #333333;
+    ;
+}
+
+.boton {
+    background-color: #3fdba7;
+    color: #ffffff;
+    border: 1px solid #333333;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    transition: all .3s ease-in-out;
+}
+
+.boton:hover {
+    background-color: #217559;
+    border: 1px solid #3fdba7;
+}

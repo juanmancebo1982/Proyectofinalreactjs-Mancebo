@@ -1,0 +1,45 @@
+.background {
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 40%;
+}
+
+.container {
+    border: 1px solid #3fdba7;
+    border-radius: 2rem;
+}
+
+
+.item li {
+    list-style-type: none;
+}
+
+.total {
+    border: 2px solid #3fdba7;
+    display: inline-block;
+    margin: 1rem auto 0 auto;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.button {
+    background-color: #3fdba7;
+    color: #ffffff;
+    border: 1px solid #333333;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    margin-bottom: 1rem;
+}
+
+.button:hover {
+    background-color: #217559;
+    border: 1px solid #3fdba7;
+}
+
+.loadingText {
+    text-align: center;
+    margin: 1rem auto;
+}

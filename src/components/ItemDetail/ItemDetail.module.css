@@ -1,0 +1,25 @@
+.itemDetailContainer {
+    padding: 20px;
+    border: 1px solid #17942a;
+    border-radius: 2rem;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.itemDetailContainer img {
+    border-radius: 1rem;
+}
+
+.highlightedText {
+    display: inline-block;
+    background-color: #edcaca;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.itemImage {
+    width: 200px;
+    margin: 10px;
+}

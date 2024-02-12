@@ -1,0 +1,11 @@
+.itemDetailContainer,
+.loadingText {
+    max-width: 70%;
+    margin: 1rem auto;
+    border: none;
+}
+
+.itemDetailContainer h1,
+.loadingText {
+    text-align: center;
+}
